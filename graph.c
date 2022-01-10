@@ -178,7 +178,7 @@ int shortestPath(int src,int dest, Graph* g){
     return val;
 }
 
-void swap(int *a,int x, int y){
+void swap(int x, int y, int *a){
     int tmp = a[x];
     a[x] = a[y];
     a[y] = tmp;
